@@ -1,4 +1,5 @@
-baseURL: https://example.org/
+baseURL: https://integration-workshop-blog.netlify.app
+
 languageCode: en-us
 title: <PROJECT_NAME>
 theme: ["PaperMod"]
