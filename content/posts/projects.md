@@ -48,6 +48,9 @@ The interaction with the user would be done either through speech recognition or
 The patient would interface with the machine with a screen, and hospital staff would be able to check patient records via a web interface. 
 There will be a motor controlled door to open and close the hole where the patient inserts their arm
 
+### Diagram
+!["diagram"](/images/anamnesis-diagram.jpeg)
+
 ---
 
 ## Asset Tracking System
@@ -61,6 +64,9 @@ registering such information to a server that can be accessed by management.
 - BLE tags
 - RFID badges and sensors
 - Bluetooth
+
+### Diagram
+!["diagram"](/images/asset-tracking-diagram.png)
 
 ---
 
@@ -76,3 +82,6 @@ showing product performance and customer purchase profiles.
 - RFID tags and sensors
 - Handling of payments
 - Robust backend system
+
+### Diagram
+!["diagram"](/images/smart-store-diagram.jpeg)
