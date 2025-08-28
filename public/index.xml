@@ -6,8 +6,15 @@
     <description>Recent content on &lt;PROJECT_NAME&gt;</description>
     <generator>Hugo -- 0.148.2</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 27 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/posts/projects/</link>
+      <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/projects/</guid>
+      <description>3 ideas developed for presentation</description>
+    </item>
     <item>
       <title>Week 2 - Blog creation and refinement of ideas</title>
       <link>http://localhost:1313/posts/week-2/</link>
