@@ -4,10 +4,21 @@
     <title>&lt;PROJECT_NAME&gt;</title>
     <link>http://localhost:1313/</link>
     <description>Recent content on &lt;PROJECT_NAME&gt;</description>
-    <generator>Hugo -- 0.148.2</generator>
+    <generator>Hugo -- 0.149.0</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 28 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 3</title>
+      <link>http://localhost:1313/posts/week-3/</link>
+      <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/week-3/</guid>
+      <description>&lt;h1 id=&#34;week-3---final-proposal-of-projects-a-and-b&#34;&gt;Week 3 - Final proposal of projects A and B&lt;/h1&gt;
+&lt;p&gt;On the previous week&amp;rsquo;s class, the professors decided to veto our third idea - the Smart Store System.
+From that point on, the team worked towards expanding the 2 remaining ideas, the anamnesis and the asset tracking systems.&lt;/p&gt;
+&lt;p&gt;Furthermore, we evaluated the viability of some implementation details on both projects,
+and started to come up with functional requirements for the projects.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Projects</title>
       <link>http://localhost:1313/posts/projects/</link>

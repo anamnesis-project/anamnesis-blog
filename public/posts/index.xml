@@ -4,16 +4,73 @@
     <title>Posts on &lt;PROJECT_NAME&gt;</title>
     <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on &lt;PROJECT_NAME&gt;</description>
-    <generator>Hugo -- 0.148.2</generator>
+    <generator>Hugo -- 0.149.0</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 27 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Week 1</title>
-      <link>http://localhost:1313/posts/week-1/</link>
+      <title>Week 3</title>
+      <link>http://localhost:1313/posts/week-3/</link>
+      <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/week-3/</guid>
+      <description>&lt;h1 id=&#34;week-3---final-proposal-of-projects-a-and-b&#34;&gt;Week 3 - Final proposal of projects A and B&lt;/h1&gt;
+&lt;p&gt;On the previous week&amp;rsquo;s class, the professors decided to veto our third idea - the Smart Store System.
+From that point on, the team worked towards expanding the 2 remaining ideas, the anamnesis and the asset tracking systems.&lt;/p&gt;
+&lt;p&gt;Furthermore, we evaluated the viability of some implementation details on both projects,
+and started to come up with functional requirements for the projects.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/posts/projects/</link>
+      <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/projects/</guid>
+      <description>3 ideas developed for presentation</description>
+    </item>
+    <item>
+      <title>Week 2 - Blog creation and refinement of ideas</title>
+      <link>http://localhost:1313/posts/week-2/</link>
       <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/week-2/</guid>
+      <description>&lt;p&gt;This week, after taking feedback from the professors on the initial project ideas,
+the team expanded and refined the ideas in order to present again,
+this time in a more holistic way.&lt;/p&gt;
+&lt;p&gt;The main complain from the professors is that there was little to none mechanics involved in any of the projects.
+For that reason, we worked on ideas to add mechanic complexity to the projects.&lt;/p&gt;
+&lt;h2 id=&#34;new-changes-to-the-projects&#34;&gt;New changes to the projects:&lt;/h2&gt;
+&lt;h3 id=&#34;automatec-anamnesis-system&#34;&gt;Automatec Anamnesis System&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Add a motor controlled door to open and close the hole where the patient inserts their arm&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;asset-tracking-system&#34;&gt;Asset Tracking System&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Add an electronically lockable cabinet to store the items that opens and closes with a motor&lt;/li&gt;
+&lt;li&gt;Use a regular Wi-Fi network instead of a mesh LoRa network&lt;/li&gt;
+&lt;li&gt;Add RFID badges to control and authorize access to the cabinet&lt;/li&gt;
+&lt;li&gt;Add Web interface to allow collaborator to generate asset request&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;smart-store-system&#34;&gt;Smart Store System&lt;/h3&gt;
+&lt;p&gt;Apart from that, we worked on getting this blog up and running.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Week 1 - Brainstorming of project ideas</title>
+      <link>http://localhost:1313/posts/week-1/</link>
+      <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/week-1/</guid>
-      <description>Desc Text.</description>
+      <description>&lt;p&gt;The first week of work was entirely focused on coming up with the three ideas that needed to be presented.&lt;/p&gt;
+&lt;p&gt;After extensive brainstorming, the team settled on the following three ideas:&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;automated-anamnesis-system&#34;&gt;Automated Anamnesis System&lt;/h2&gt;
+&lt;p&gt;This idea consists in building a totem that collects vitals and medically relevant personal information from the patient,
+automatind the process of anamnesis and creating a medical report that can be classified by urgency.&lt;/p&gt;
+&lt;h3 id=&#34;vitals-that-would-be-collected&#34;&gt;Vitals that would be collected&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Blood pressure&lt;/li&gt;
+&lt;li&gt;Heart rate&lt;/li&gt;
+&lt;li&gt;Oxygenation&lt;/li&gt;
+&lt;li&gt;Temperature&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The interaction with the user would be done either through speech recognition or text input.
+The patient would interface with the machine with a screen, and hospital staff would be able to check patient records via a web interface.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
