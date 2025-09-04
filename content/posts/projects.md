@@ -8,7 +8,7 @@ tags: ["ideas", "kick-off"]
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
-draft: false
+draft: true
 hidemeta: false
 comments: false
 description: "3 ideas developed for presentation"

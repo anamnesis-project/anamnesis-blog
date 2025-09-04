@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Week 3 | &lt;PROJECT_NAME&gt;</title>
+<title>Week 3 - Improving of proposals A and B | &lt;PROJECT_NAME&gt;</title>
 <meta name="keywords" content="ideas">
 <meta name="description" content="Week 3 - Final proposal of projects A and B
 On the previous week&rsquo;s class, the professors decided to veto our third idea - the Smart Store System.
@@ -142,9 +142,9 @@ and started to come up with functional requirements for the projects.">
   <header class="post-header">
     <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
     <h1 class="post-title entry-hint-parent">
-      Week 3
+      Week 3 - Improving of proposals A and B
     </h1>
-    <div class="post-meta"><span title='2025-09-04 00:00:00 +0000 UTC'>September 4, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;172 words
+    <div class="post-meta"><span title='2025-09-04 00:00:00 +0000 UTC'>September 4, 2025</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;593 words
 
 </div>
   </header> 
@@ -160,10 +160,18 @@ and started to come up with functional requirements for the projects.">
 
         <div class="inner"><nav id="TableOfContents">
   <ul>
-    <li><a href="#proposal-a-anamnesis-system">Proposal A: Anamnesis System</a></li>
+    <li><a href="#proposal-a-anamnesis">Proposal A: ANAmnesis</a>
+      <ul>
+        <li><a href="#main-changes-to-the-proposal">Main changes to the proposal</a></li>
+        <li><a href="#main-functional-requirements">Main functional requirements</a></li>
+        <li><a href="#diagram-of-the-system">Diagram of the system</a></li>
+      </ul>
+    </li>
     <li><a href="#proposal-b-asset-tracking-system">Proposal B: Asset Tracking System</a>
       <ul>
-        <li><a href="#diagram-of-the-system">Diagram of the system</a></li>
+        <li><a href="#main-changes-to-the-proposal-1">Main changes to the proposal</a></li>
+        <li><a href="#main-functional-requirements-1">Main functional requirements</a></li>
+        <li><a href="#diagram-of-the-system-1">Diagram of the system</a></li>
       </ul>
     </li>
   </ul>
@@ -178,8 +186,36 @@ From that point on, the team worked towards expanding the 2 remaining ideas, the
 <p>Furthermore, we evaluated the viability of some implementation details on both projects,
 and started to come up with functional requirements for the projects.</p>
 <p>Here are main changes to the proposals made this week:</p>
-<h2 id="proposal-a-anamnesis-system">Proposal A: Anamnesis System<a hidden class="anchor" aria-hidden="true" href="#proposal-a-anamnesis-system">#</a></h2>
+<h2 id="proposal-a-anamnesis">Proposal A: ANAmnesis<a hidden class="anchor" aria-hidden="true" href="#proposal-a-anamnesis">#</a></h2>
+<h3 id="main-changes-to-the-proposal">Main changes to the proposal<a hidden class="anchor" aria-hidden="true" href="#main-changes-to-the-proposal">#</a></h3>
+<ul>
+<li>We decided to go with voice recognition for all user interaction</li>
+<li>After evaluating our options, the team opted to use an LLM for generating the questions and parsing the user response</li>
+</ul>
+<h3 id="main-functional-requirements">Main functional requirements<a hidden class="anchor" aria-hidden="true" href="#main-functional-requirements">#</a></h3>
+<ul>
+<li>The system must measure body temperature.</li>
+<li>The system must measure oxygen saturation (SpO₂).</li>
+<li>The system must measure blood pressure</li>
+<li>The system must measure heart rate.</li>
+<li>The system must be totem-like</li>
+<li>The system must identify users via authentication (e.g. CPF).</li>
+<li>The system must allow users to input data through voice recognition.</li>
+<li>The system must communicate with the patient via audio.</li>
+<li>The system must have an initial input to start a session (e.g. say its name)</li>
+<li>The system must be able to end a session by timeout or user’s input.</li>
+<li>The system must ask the patient basic medical information (e.g age, gender, occupation).</li>
+<li>The system must ask the patient about possible symptoms.</li>
+<li>The system must ask investigative questions based on the symptoms and other given information.</li>
+<li>The system must record all patients&rsquo; data.</li>
+<li>The system must allow privileged users (e.g. doctors) to access patients information.</li>
+<li>The totem must have an autonomous compartment to store the blood pressure monitor.</li>
+<li>The totem must have an autonomous compartment to store the oxygen saturation sensor.</li>
+</ul>
+<h3 id="diagram-of-the-system">Diagram of the system<a hidden class="anchor" aria-hidden="true" href="#diagram-of-the-system">#</a></h3>
+<p><img alt="&ldquo;ANAmnesis System Diagram&rdquo;" loading="lazy" src="/images/anamnesis-diagram.png"></p>
 <h2 id="proposal-b-asset-tracking-system">Proposal B: Asset Tracking System<a hidden class="anchor" aria-hidden="true" href="#proposal-b-asset-tracking-system">#</a></h2>
+<h3 id="main-changes-to-the-proposal-1">Main changes to the proposal<a hidden class="anchor" aria-hidden="true" href="#main-changes-to-the-proposal-1">#</a></h3>
 <ul>
 <li>We decided to give up on the idea of implementing a mesh network,
 as the added complexity would not impact in any extra functional requirements or benefits.</li>
@@ -187,8 +223,38 @@ as the added complexity would not impact in any extra functional requirements or
 So we decided that buying them pre-made was the best option.</li>
 <li>We also opted for using the MQTT protocol for messaging between the server and the BLE Scanner Stations.</li>
 </ul>
-<h3 id="diagram-of-the-system">Diagram of the system<a hidden class="anchor" aria-hidden="true" href="#diagram-of-the-system">#</a></h3>
-<p><img alt="&ldquo;test&rdquo;" loading="lazy" src="/images/asset-tracking-diagram.jpeg"></p>
+<h3 id="main-functional-requirements-1">Main functional requirements<a hidden class="anchor" aria-hidden="true" href="#main-functional-requirements-1">#</a></h3>
+<ul>
+<li>The system must have at least 4 BLE scanner stations;
+<ul>
+<li>The system must have BLE tags;</li>
+<li>The scanner stations must report all detected BLE tags periodically;</li>
+<li>The system must detect if an asset is not within the covered area;</li>
+<li>The system must have a locker;</li>
+<li>The locker&rsquo;s door must be opened using a stepper motor;</li>
+</ul>
+</li>
+<li>The locker must have an RFID scanner;
+<ul>
+<li>The user must be able to automatically open the locker upon scanning their RFID badge;</li>
+<li>The system must know when an asset is withdrawn from the locker;</li>
+<li>The system must know if the user has withdrawn only the requested assets from the locker;</li>
+<li>The system must not allow a user with no approved asset withdrawal request to open the locker;</li>
+</ul>
+</li>
+<li>The system must have a web interface;
+<ul>
+<li>The web interface must show in which room each device is located;</li>
+<li>The user must be able to generate an asset withdrawal request from the web interface;</li>
+<li>The web interface must show whether an asset is currently taken or available for withdrawal;</li>
+<li>The web interface must show all assets a user is currently using;</li>
+</ul>
+</li>
+<li>The system must have custom user permissions;</li>
+<li>The permissions must define what assets the user is allowed to withdraw;</li>
+</ul>
+<h3 id="diagram-of-the-system-1">Diagram of the system<a hidden class="anchor" aria-hidden="true" href="#diagram-of-the-system-1">#</a></h3>
+<p><img alt="&ldquo;Asset Tracking Diagram&rdquo;" loading="lazy" src="/images/asset-tracking-diagram.jpeg"></p>
 
 
   </div>
@@ -198,10 +264,10 @@ So we decided that buying them pre-made was the best option.</li>
       <li><a href="http://localhost:1313/tags/ideas/">Ideas</a></li>
     </ul>
 <nav class="paginav">
-  <a class="next" href="http://localhost:1313/posts/projects/">
+  <a class="next" href="http://localhost:1313/posts/week-2/">
     <span class="title">Next »</span>
     <br>
-    <span>Projects</span>
+    <span>Week 2 - Blog creation and refinement of ideas</span>
   </a>
 </nav>
 
