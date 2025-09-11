@@ -58,11 +58,6 @@ cover:
 - FR9 - Both doors must have a lock.
 - FR10 - The system must have a space for a screen.
  
-- NFR1 - All hinges and locks must be made from non-brittle materials to avoid cracking under stress.
-- NFR2 - All compartments must be accessible for maintenance without requiring specialized tools.
-- NFR3 - The total system dimensions must not exceed 30 × 30 × 20 cm (to ensure portability).
-- NFR4 - The total weight of the system must not exceed 5 kg.
-
 ## Software
 - FR1 - The system must contain a website where healthcare professionals can access patients' information.
 - FR2 - The system must have a login page.
@@ -87,6 +82,10 @@ cover:
 - NFR1 - The website pages must have at least 4.5:1 contrast ratio for normal text.
 - NFR2 - The website pages must have at least 3:1 contrast ratio for large text.
 - NFR3 - The website must have its text with minimum 16px.
+- NFR4 - All hinges and locks must be made from non-brittle materials to avoid cracking under stress.
+- NFR5 - All compartments must be accessible for maintenance without requiring specialized tools.
+- NFR6 - The total weight of the system must not exceed 5 kg.
+- NFR7- The system must use The OMRON HEM-7113 pressure monitor.
 
 # Budget
  
