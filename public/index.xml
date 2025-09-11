@@ -6,8 +6,15 @@
     <description>Recent content on &lt;PROJECT_NAME&gt;</description>
     <generator>Hugo -- 0.149.0</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 04 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 4 - Preliminary Project Charter</title>
+      <link>http://localhost:1313/posts/week-4/</link>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/week-4/</guid>
+      <description>ANAmnesis - Requirements, Time Management and budget</description>
+    </item>
     <item>
       <title>Week 3 - Improving of proposals A and B</title>
       <link>http://localhost:1313/posts/week-3/</link>

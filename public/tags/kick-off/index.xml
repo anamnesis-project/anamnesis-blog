@@ -6,15 +6,8 @@
     <description>Recent content in Kick-Off on &lt;PROJECT_NAME&gt;</description>
     <generator>Hugo -- 0.149.0</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 28 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/kick-off/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Projects</title>
-      <link>http://localhost:1313/posts/projects/</link>
-      <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/projects/</guid>
-      <description>3 ideas developed for presentation</description>
-    </item>
     <item>
       <title>Week 2 - Blog creation and refinement of ideas</title>
       <link>http://localhost:1313/posts/week-2/</link>

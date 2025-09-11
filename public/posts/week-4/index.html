@@ -5,15 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Week 3 - Improving of proposals A and B | &lt;PROJECT_NAME&gt;</title>
+<title>Week 4 - Preliminary Project Charter | &lt;PROJECT_NAME&gt;</title>
 <meta name="keywords" content="ideas">
-<meta name="description" content="Week 3 - Final proposal of projects A and B
-On the previous week&rsquo;s class, the professors decided to veto our third idea - the Smart Store System.
-From that point on, the team worked towards expanding the 2 remaining ideas, the anamnesis and the asset tracking systems.
-Furthermore, we evaluated the viability of some implementation details on both projects,
-and started to come up with functional requirements for the projects.">
+<meta name="description" content="ANAmnesis - Requirements, Time Management and budget">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/posts/week-3/">
+<link rel="canonical" href="http://localhost:1313/posts/week-4/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
@@ -22,7 +18,7 @@ and started to come up with functional requirements for the projects.">
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/week-3/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/week-4/">
 <noscript>
     <style>
         #theme-toggle,
@@ -142,14 +138,17 @@ and started to come up with functional requirements for the projects.">
   <header class="post-header">
     <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
     <h1 class="post-title entry-hint-parent">
-      Week 3 - Improving of proposals A and B
+      Week 4 - Preliminary Project Charter
     </h1>
-    <div class="post-meta"><span title='2025-09-04 00:00:00 +0000 UTC'>September 4, 2025</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;593 words
+    <div class="post-description">
+      ANAmnesis - Requirements, Time Management and budget
+    </div>
+    <div class="post-meta"><span title='2025-09-11 00:00:00 +0000 UTC'>September 11, 2025</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;620 words
 
 </div>
   </header> 
 <figure class="entry-cover">
-        <img loading="eager" src="http://localhost:1313/images/week-3-banner.png" alt="week 3 cover">
+        <img loading="eager" src="http://localhost:1313/images/week-4-banner.png" alt="week 4 cover">
         <figcaption><!-- raw HTML omitted -->
 </figcaption>
 </figure><div class="toc">
@@ -160,18 +159,16 @@ and started to come up with functional requirements for the projects.">
 
         <div class="inner"><nav id="TableOfContents">
   <ul>
-    <li><a href="#proposal-a-anamnesis">Proposal A: ANAmnesis</a>
+    <li><a href="#hardware">Hardware</a></li>
+    <li><a href="#mechanical">Mechanical</a></li>
+    <li><a href="#software">Software</a></li>
+    <li><a href="#general">General</a></li>
+  </ul>
+
+  <ul>
+    <li>
       <ul>
-        <li><a href="#main-changes-to-the-proposal">Main changes to the proposal</a></li>
-        <li><a href="#main-functional-requirements">Main functional requirements</a></li>
-        <li><a href="#diagram-of-the-system">Diagram of the system</a></li>
-      </ul>
-    </li>
-    <li><a href="#proposal-b-asset-tracking-system">Proposal B: Asset Tracking System</a>
-      <ul>
-        <li><a href="#main-changes-to-the-proposal-1">Main changes to the proposal</a></li>
-        <li><a href="#main-functional-requirements-1">Main functional requirements</a></li>
-        <li><a href="#diagram-of-the-system-1">Diagram of the system</a></li>
+        <li><a href="#total-r86000">Total: R$860,00</a></li>
       </ul>
     </li>
   </ul>
@@ -180,81 +177,176 @@ and started to come up with functional requirements for the projects.">
     </details>
 </div>
 
-  <div class="post-content"><h1 id="week-3---final-proposal-of-projects-a-and-b">Week 3 - Final proposal of projects A and B<a hidden class="anchor" aria-hidden="true" href="#week-3---final-proposal-of-projects-a-and-b">#</a></h1>
-<p>On the previous week&rsquo;s class, the professors decided to veto our third idea - the Smart Store System.
-From that point on, the team worked towards expanding the 2 remaining ideas, the anamnesis and the asset tracking systems.</p>
-<p>Furthermore, we evaluated the viability of some implementation details on both projects,
-and started to come up with functional requirements for the projects.</p>
-<p>Here are main changes to the proposals made this week:</p>
-<h2 id="proposal-a-anamnesis">Proposal A: ANAmnesis<a hidden class="anchor" aria-hidden="true" href="#proposal-a-anamnesis">#</a></h2>
-<h3 id="main-changes-to-the-proposal">Main changes to the proposal<a hidden class="anchor" aria-hidden="true" href="#main-changes-to-the-proposal">#</a></h3>
+  <div class="post-content"><h1 id="functional-requirements">Functional Requirements<a hidden class="anchor" aria-hidden="true" href="#functional-requirements">#</a></h1>
+<h2 id="hardware">Hardware<a hidden class="anchor" aria-hidden="true" href="#hardware">#</a></h2>
 <ul>
-<li>We decided to go with voice recognition for all user interaction</li>
-<li>After evaluating our options, the team opted to use an LLM for generating the questions and parsing the user response</li>
+<li>FR1 - The system must measure the patient’s body temperature.</li>
+<li>FR2 - The system must measure the patient’s heart rate.</li>
+<li>FR3 - The system must measure the patient’s oxygen saturation.</li>
+<li>FR4 - The system must measure the patient’s blood pressure.</li>
+<li>FR5 - The system must have audio output.</li>
+<li>FR6 - The system must have audio input.</li>
+<li>FR7 - The system must control if the doors should open or close.</li>
+<li>FR8 - The system must have a screen.</li>
+<li>FR9 - The system must have WiFi connection.</li>
+<li>FR10 - The system must indicate visually when the patient should speak.</li>
+<li>FR11 - The system must be plugged into the outlet.</li>
 </ul>
-<h3 id="main-functional-requirements">Main functional requirements<a hidden class="anchor" aria-hidden="true" href="#main-functional-requirements">#</a></h3>
+<h2 id="mechanical">Mechanical<a hidden class="anchor" aria-hidden="true" href="#mechanical">#</a></h2>
 <ul>
-<li>The system must measure body temperature.</li>
-<li>The system must measure oxygen saturation (SpO₂).</li>
-<li>The system must measure blood pressure</li>
-<li>The system must measure heart rate.</li>
-<li>The system must be totem-like</li>
-<li>The system must identify users via authentication (e.g. CPF).</li>
-<li>The system must allow users to input data through voice recognition.</li>
-<li>The system must communicate with the patient via audio.</li>
-<li>The system must have an initial input to start a session (e.g. say its name)</li>
-<li>The system must be able to end a session by timeout or user’s input.</li>
-<li>The system must ask the patient basic medical information (e.g age, gender, occupation).</li>
-<li>The system must ask the patient about possible symptoms.</li>
-<li>The system must ask investigative questions based on the symptoms and other given information.</li>
-<li>The system must record all patients&rsquo; data.</li>
-<li>The system must allow privileged users (e.g. doctors) to access patients information.</li>
-<li>The totem must have an autonomous compartment to store the blood pressure monitor.</li>
-<li>The totem must have an autonomous compartment to store the oxygen saturation sensor.</li>
-</ul>
-<h3 id="diagram-of-the-system">Diagram of the system<a hidden class="anchor" aria-hidden="true" href="#diagram-of-the-system">#</a></h3>
-<p><img alt="&ldquo;ANAmnesis System Diagram&rdquo;" loading="lazy" src="/images/anamnesis-diagram.png"></p>
-<h2 id="proposal-b-asset-tracking-system">Proposal B: Asset Tracking System<a hidden class="anchor" aria-hidden="true" href="#proposal-b-asset-tracking-system">#</a></h2>
-<h3 id="main-changes-to-the-proposal-1">Main changes to the proposal<a hidden class="anchor" aria-hidden="true" href="#main-changes-to-the-proposal-1">#</a></h3>
-<ul>
-<li>We decided to give up on the idea of implementing a mesh network,
-as the added complexity would not impact in any extra functional requirements or benefits.</li>
-<li>We evaluated the possibility of building our own BLE Tags, but that would turn out to be too expensive for our budget.
-So we decided that buying them pre-made was the best option.</li>
-<li>We also opted for using the MQTT protocol for messaging between the server and the BLE Scanner Stations.</li>
-</ul>
-<h3 id="main-functional-requirements-1">Main functional requirements<a hidden class="anchor" aria-hidden="true" href="#main-functional-requirements-1">#</a></h3>
-<ul>
-<li>The system must have at least 4 BLE scanner stations;
-<ul>
-<li>The system must have BLE tags;</li>
-<li>The scanner stations must report all detected BLE tags periodically;</li>
-<li>The system must detect if an asset is not within the covered area;</li>
-<li>The system must have a locker;</li>
-<li>The locker&rsquo;s door must be opened using a stepper motor;</li>
-</ul>
+<li>
+<p>FR1 - The system must have space to contain an oximeter and cardiac frequency sensor.</p>
 </li>
-<li>The locker must have an RFID scanner;
-<ul>
-<li>The user must be able to automatically open the locker upon scanning their RFID badge;</li>
-<li>The system must know when an asset is withdrawn from the locker;</li>
-<li>The system must know if the user has withdrawn only the requested assets from the locker;</li>
-<li>The system must not allow a user with no approved asset withdrawal request to open the locker;</li>
-</ul>
+<li>
+<p>FR2 - The system must have space to contain blood pressure equipment.</p>
 </li>
-<li>The system must have a web interface;
-<ul>
-<li>The web interface must show in which room each device is located;</li>
-<li>The user must be able to generate an asset withdrawal request from the web interface;</li>
-<li>The web interface must show whether an asset is currently taken or available for withdrawal;</li>
-<li>The web interface must show all assets a user is currently using;</li>
-</ul>
+<li>
+<p>FR3 - The system must have space to contain a temperature sensor.</p>
 </li>
-<li>The system must have custom user permissions;</li>
-<li>The permissions must define what assets the user is allowed to withdraw;</li>
+<li>
+<p>FR4 - The system must have space to contain a microphone.</p>
+</li>
+<li>
+<p>FR5 - The system must have space to contain a sound box.</p>
+</li>
+<li>
+<p>FR6 - The system must have at least 2 spaces to contain a speaker.</p>
+</li>
+<li>
+<p>FR7 - The space that contains the blood pressure equipment should have a little door.</p>
+</li>
+<li>
+<p>FR8 - The space that contains the oximeter and cardiac frequency sensor should have a little door.</p>
+</li>
+<li>
+<p>FR9 - Both doors must have a lock.</p>
+</li>
+<li>
+<p>FR10 - The system must have a space for a screen.</p>
+</li>
+<li>
+<p>NFR1 - All hinges and locks must be made from non-brittle materials to avoid cracking under stress.</p>
+</li>
+<li>
+<p>NFR2 - All compartments must be accessible for maintenance without requiring specialized tools.</p>
+</li>
+<li>
+<p>NFR3 - The total system dimensions must not exceed 30 × 30 × 20 cm (to ensure portability).</p>
+</li>
+<li>
+<p>NFR4 - The total weight of the system must not exceed 5 kg.</p>
+</li>
 </ul>
-<h3 id="diagram-of-the-system-1">Diagram of the system<a hidden class="anchor" aria-hidden="true" href="#diagram-of-the-system-1">#</a></h3>
-<p><img alt="&ldquo;Asset Tracking Diagram&rdquo;" loading="lazy" src="/images/asset-tracking-diagram.jpeg"></p>
+<h2 id="software">Software<a hidden class="anchor" aria-hidden="true" href="#software">#</a></h2>
+<ul>
+<li>FR1 - The system must contain a website where healthcare professionals can access patients&rsquo; information.</li>
+<li>FR2 - The system must have a login page.</li>
+<li>FR3 - The website must allow users to authenticate to get access.</li>
+<li>FR4 - The website must allow users to search for patient’s medical screenings.</li>
+</ul>
+<h2 id="general">General<a hidden class="anchor" aria-hidden="true" href="#general">#</a></h2>
+<ul>
+<li>FR0 - The system must identify patients via name and CPF.</li>
+<li>FR1 - The system must convert text to audio to communicate with the patient.</li>
+<li>FR2 - The system must convert input audio to text.</li>
+<li>FR3 - The system must start the medical screening after a specific voice command.</li>
+<li>FR4 - The communication between the system and the patient should be in English.</li>
+<li>FR5 - The system must ask pre-defined questions at the beginning of the medical screening.</li>
+<li>FR6 - The system must process the patient’s answers and store them.</li>
+<li>FR7 - The system must elaborate questions intelligently based on the patient’s complaints.</li>
+<li>FR8 - The system must give the patient instructions about how to get vital signs monitored.</li>
+<li>FR9 - The system must end the medical screening by timeout or user’s command.</li>
+<li>FR10 - The system must record the patient’s information in a server.</li>
+<li>FR11 - The server must keep a history of a patient’s medical screenings.</li>
+</ul>
+<h1 id="non-functional-requirements">Non-Functional Requirements<a hidden class="anchor" aria-hidden="true" href="#non-functional-requirements">#</a></h1>
+<ul>
+<li>NFR1 - The website pages must have at least 4.5:1 contrast ratio for normal text.</li>
+<li>NFR2 - The website pages must have at least 3:1 contrast ratio for large text.</li>
+<li>NFR3 - The website must have its text with minimum 16px.</li>
+</ul>
+<h1 id="budget">Budget<a hidden class="anchor" aria-hidden="true" href="#budget">#</a></h1>
+<table>
+  <thead>
+      <tr>
+          <th>Item</th>
+          <th>Quantity</th>
+          <th>Price per unit</th>
+          <th>Total</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Microphone</td>
+          <td>1</td>
+          <td>25</td>
+          <td>25</td>
+      </tr>
+      <tr>
+          <td>Speaker</td>
+          <td>1</td>
+          <td>45</td>
+          <td>45</td>
+      </tr>
+      <tr>
+          <td>Temperature sensor</td>
+          <td>1</td>
+          <td>70</td>
+          <td>70</td>
+      </tr>
+      <tr>
+          <td>Blood pressure monitor</td>
+          <td>1</td>
+          <td>150</td>
+          <td>150</td>
+      </tr>
+      <tr>
+          <td>Oximeter/heart rate monitor</td>
+          <td>1</td>
+          <td>30</td>
+          <td>30</td>
+      </tr>
+      <tr>
+          <td>Raspberry Pi 4</td>
+          <td>1</td>
+          <td>300</td>
+          <td>300</td>
+      </tr>
+      <tr>
+          <td>Chapa MDF</td>
+          <td>4</td>
+          <td>12,50</td>
+          <td>50</td>
+      </tr>
+      <tr>
+          <td>Servomotors</td>
+          <td>2</td>
+          <td>20</td>
+          <td>40</td>
+      </tr>
+      <tr>
+          <td>MicroSD card</td>
+          <td>1</td>
+          <td>40</td>
+          <td>40</td>
+      </tr>
+      <tr>
+          <td>Font raspberry pi</td>
+          <td>1</td>
+          <td>30</td>
+          <td>30</td>
+      </tr>
+      <tr>
+          <td>Screen</td>
+          <td>1</td>
+          <td>80</td>
+          <td>80</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="total-r86000">Total: R$860,00<a hidden class="anchor" aria-hidden="true" href="#total-r86000">#</a></h3>
+<h1 id="time-management">Time management<a hidden class="anchor" aria-hidden="true" href="#time-management">#</a></h1>
+<p><a href="https://docs.google.com/spreadsheets/d/1vU3akLX5LN2Nhp2A6Dwx2Q3G0gA66hAT/edit?gid=1820079268#gid=1820079268">Schedule Spread Sheet</a></p>
 
 
   </div>
@@ -264,15 +356,10 @@ So we decided that buying them pre-made was the best option.</li>
       <li><a href="http://localhost:1313/tags/ideas/">Ideas</a></li>
     </ul>
 <nav class="paginav">
-  <a class="prev" href="http://localhost:1313/posts/week-4/">
-    <span class="title">« Prev</span>
-    <br>
-    <span>Week 4 - Preliminary Project Charter</span>
-  </a>
-  <a class="next" href="http://localhost:1313/posts/week-2/">
+  <a class="next" href="http://localhost:1313/posts/week-3/">
     <span class="title">Next »</span>
     <br>
-    <span>Week 2 - Blog creation and refinement of ideas</span>
+    <span>Week 3 - Improving of proposals A and B</span>
   </a>
 </nav>
 

@@ -6,10 +6,17 @@
     <description>Recent content in Ideas on &lt;PROJECT_NAME&gt;</description>
     <generator>Hugo -- 0.149.0</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 04 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/ideas/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Week 3</title>
+      <title>Week 4 - Preliminary Project Charter</title>
+      <link>http://localhost:1313/posts/week-4/</link>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/week-4/</guid>
+      <description>ANAmnesis - Requirements, Time Management and budget</description>
+    </item>
+    <item>
+      <title>Week 3 - Improving of proposals A and B</title>
       <link>http://localhost:1313/posts/week-3/</link>
       <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/week-3/</guid>
@@ -18,13 +25,6 @@
 From that point on, the team worked towards expanding the 2 remaining ideas, the anamnesis and the asset tracking systems.&lt;/p&gt;
 &lt;p&gt;Furthermore, we evaluated the viability of some implementation details on both projects,
 and started to come up with functional requirements for the projects.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Projects</title>
-      <link>http://localhost:1313/posts/projects/</link>
-      <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/projects/</guid>
-      <description>3 ideas developed for presentation</description>
     </item>
     <item>
       <title>Week 2 - Blog creation and refinement of ideas</title>
