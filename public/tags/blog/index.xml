@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on ANAmnesis</title>
-    <link>http://localhost:1313/tags/blog/</link>
+    <link>https://anamnesis-blog.netlify.app/tags/blog/</link>
     <description>Recent content in Blog on ANAmnesis</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 27 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://anamnesis-blog.netlify.app/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Week 2 - Blog creation and refinement of ideas</title>
-      <link>http://localhost:1313/posts/week-2/</link>
+      <link>https://anamnesis-blog.netlify.app/posts/week-2/</link>
       <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/week-2/</guid>
+      <guid>https://anamnesis-blog.netlify.app/posts/week-2/</guid>
       <description>&lt;p&gt;This week, after taking feedback from the professors on the initial project ideas,&#xA;the team expanded and refined the ideas in order to present again,&#xA;this time in a more holistic way.&lt;/p&gt;&#xA;&lt;p&gt;The main complain from the professors is that there was little to none mechanics involved in any of the projects.&#xA;For that reason, we worked on ideas to add mechanic complexity to the projects.&lt;/p&gt;&#xA;&lt;h2 id=&#34;new-changes-to-the-projects&#34;&gt;New changes to the projects:&lt;/h2&gt;&#xA;&lt;h3 id=&#34;automatec-anamnesis-system&#34;&gt;Automatec Anamnesis System&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add a motor controlled door to open and close the hole where the patient inserts their arm&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;asset-tracking-system&#34;&gt;Asset Tracking System&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add an electronically lockable cabinet to store the items that opens and closes with a motor&lt;/li&gt;&#xA;&lt;li&gt;Use a regular Wi-Fi network instead of a mesh LoRa network&lt;/li&gt;&#xA;&lt;li&gt;Add RFID badges to control and authorize access to the cabinet&lt;/li&gt;&#xA;&lt;li&gt;Add Web interface to allow collaborator to generate asset request&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;smart-store-system&#34;&gt;Smart Store System&lt;/h3&gt;&#xA;&lt;p&gt;Apart from that, we worked on getting this blog up and running.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,44 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://anamnesis-blog.netlify.app/</loc>
     <lastmod>2025-09-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ideas/</loc>
+    <loc>https://anamnesis-blog.netlify.app/tags/ideas/</loc>
     <lastmod>2025-09-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://anamnesis-blog.netlify.app/posts/</loc>
     <lastmod>2025-09-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://anamnesis-blog.netlify.app/tags/</loc>
     <lastmod>2025-09-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/week-4/</loc>
+    <loc>https://anamnesis-blog.netlify.app/posts/week-4/</loc>
     <lastmod>2025-09-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/week-3/</loc>
+    <loc>https://anamnesis-blog.netlify.app/posts/week-3/</loc>
     <lastmod>2025-09-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/blog/</loc>
+    <loc>https://anamnesis-blog.netlify.app/tags/blog/</loc>
     <lastmod>2025-08-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/kick-off/</loc>
+    <loc>https://anamnesis-blog.netlify.app/tags/kick-off/</loc>
     <lastmod>2025-08-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/week-2/</loc>
+    <loc>https://anamnesis-blog.netlify.app/posts/week-2/</loc>
     <lastmod>2025-08-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/week-1/</loc>
+    <loc>https://anamnesis-blog.netlify.app/posts/week-1/</loc>
     <lastmod>2025-08-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>https://anamnesis-blog.netlify.app/posts/charter/</loc>
+    <lastmod>2024-09-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://anamnesis-blog.netlify.app/tags/test/</loc>
+    <lastmod>2024-09-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://anamnesis-blog.netlify.app/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>https://anamnesis-blog.netlify.app/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/team/</loc>
+    <loc>https://anamnesis-blog.netlify.app/search/</loc>
+  </url><url>
+    <loc>https://anamnesis-blog.netlify.app/series/</loc>
+  </url><url>
+    <loc>https://anamnesis-blog.netlify.app/team/</loc>
   </url>
 </urlset>

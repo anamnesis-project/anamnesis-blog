@@ -2,31 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on ANAmnesis</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://anamnesis-blog.netlify.app/tags/</link>
     <description>Recent content in Tags on ANAmnesis</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 11 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://anamnesis-blog.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ideas</title>
-      <link>http://localhost:1313/tags/ideas/</link>
+      <link>https://anamnesis-blog.netlify.app/tags/ideas/</link>
       <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ideas/</guid>
+      <guid>https://anamnesis-blog.netlify.app/tags/ideas/</guid>
       <description></description>
     </item>
     <item>
       <title>Blog</title>
-      <link>http://localhost:1313/tags/blog/</link>
+      <link>https://anamnesis-blog.netlify.app/tags/blog/</link>
       <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/blog/</guid>
+      <guid>https://anamnesis-blog.netlify.app/tags/blog/</guid>
       <description></description>
     </item>
     <item>
       <title>Kick-Off</title>
-      <link>http://localhost:1313/tags/kick-off/</link>
+      <link>https://anamnesis-blog.netlify.app/tags/kick-off/</link>
       <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/kick-off/</guid>
+      <guid>https://anamnesis-blog.netlify.app/tags/kick-off/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Test</title>
+      <link>https://anamnesis-blog.netlify.app/tags/test/</link>
+      <pubDate>Wed, 11 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://anamnesis-blog.netlify.app/tags/test/</guid>
       <description></description>
     </item>
   </channel>
