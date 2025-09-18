@@ -132,7 +132,8 @@ FR24 - The door opening will be controlled by a servo motor.
 | Servomotors | 2 | 20 | 40 |
 | Raspberry pi power source | 1 | 30 | 30 |
 | Screen | 1 | 80 | 80 |
-| Total | | | 795 |
+| Camera | 1 | 100 | 100 |
+| Total | | | 895 |
 
 
 # Schedule
