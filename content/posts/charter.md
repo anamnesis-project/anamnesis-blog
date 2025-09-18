@@ -53,7 +53,7 @@ cover:
 - FR15 - The system must have space to contain a microphone. 
 - FR16 - The system must have space to contain a sound box. 
 - FR17 - The system must have at least 2 spaces to contain a speaker.
-- FR18 - The system must have space to contain a camera.
+- FR18 (Non obligatory) - The system must have space to contain a camera.
 - FR19 - The space that contains the blood pressure equipment should have a little door.
 - FR20 - The space that contains the oximeter and cardiac frequency sensor should have a little door.
 - FR21 - Both doors must lock when closed.
@@ -88,8 +88,8 @@ FR24 - The door opening will be controlled by a servo motor.
 - FR46 - The system must show temperature being measured in real time.
 - FR47 - The system must end the medical screening by timeout or user’s command.
 - FR48 - The system must keep a history of a patient’s medical screenings.
-- FR49 - The system must detect the presence of a patient via camera.
-- FR50 - The system must perform person recognition via camera.
+- FR49 (Non obligatory) - The system must detect the presence of a patient via camera.
+- FR50 (Non obligatory) - The system must perform person recognition via camera.
   
 # Non Functional Requirements
 - NFR1 - All hinges and locks must be made from non-brittle materials to avoid cracking under stress.
