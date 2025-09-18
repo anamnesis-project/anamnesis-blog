@@ -1,26 +1,58 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Kick-Off on ANAmnesis</title>
-    <link>https://anamnesis-blog.netlify.app/tags/kick-off/</link>
+    <link>http://localhost:1313/tags/kick-off/</link>
     <description>Recent content in Kick-Off on ANAmnesis</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.150.0</generator>
     <language>en</language>
     <lastBuildDate>Wed, 27 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://anamnesis-blog.netlify.app/tags/kick-off/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/kick-off/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Week 2 - Blog creation and refinement of ideas</title>
-      <link>https://anamnesis-blog.netlify.app/posts/week-2/</link>
+      <link>http://localhost:1313/posts/week-2/</link>
       <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://anamnesis-blog.netlify.app/posts/week-2/</guid>
-      <description>&lt;p&gt;This week, after taking feedback from the professors on the initial project ideas,&#xA;the team expanded and refined the ideas in order to present again,&#xA;this time in a more holistic way.&lt;/p&gt;&#xA;&lt;p&gt;The main complain from the professors is that there was little to none mechanics involved in any of the projects.&#xA;For that reason, we worked on ideas to add mechanic complexity to the projects.&lt;/p&gt;&#xA;&lt;h2 id=&#34;new-changes-to-the-projects&#34;&gt;New changes to the projects:&lt;/h2&gt;&#xA;&lt;h3 id=&#34;automatec-anamnesis-system&#34;&gt;Automatec Anamnesis System&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add a motor controlled door to open and close the hole where the patient inserts their arm&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;asset-tracking-system&#34;&gt;Asset Tracking System&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add an electronically lockable cabinet to store the items that opens and closes with a motor&lt;/li&gt;&#xA;&lt;li&gt;Use a regular Wi-Fi network instead of a mesh LoRa network&lt;/li&gt;&#xA;&lt;li&gt;Add RFID badges to control and authorize access to the cabinet&lt;/li&gt;&#xA;&lt;li&gt;Add Web interface to allow collaborator to generate asset request&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;smart-store-system&#34;&gt;Smart Store System&lt;/h3&gt;&#xA;&lt;p&gt;Apart from that, we worked on getting this blog up and running.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/week-2/</guid>
+      <description>&lt;p&gt;This week, after taking feedback from the professors on the initial project ideas,
+the team expanded and refined the ideas in order to present again,
+this time in a more holistic way.&lt;/p&gt;
+&lt;p&gt;The main complain from the professors is that there was little to none mechanics involved in any of the projects.
+For that reason, we worked on ideas to add mechanic complexity to the projects.&lt;/p&gt;
+&lt;h2 id=&#34;new-changes-to-the-projects&#34;&gt;New changes to the projects:&lt;/h2&gt;
+&lt;h3 id=&#34;automatec-anamnesis-system&#34;&gt;Automatec Anamnesis System&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Add a motor controlled door to open and close the hole where the patient inserts their arm&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;asset-tracking-system&#34;&gt;Asset Tracking System&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Add an electronically lockable cabinet to store the items that opens and closes with a motor&lt;/li&gt;
+&lt;li&gt;Use a regular Wi-Fi network instead of a mesh LoRa network&lt;/li&gt;
+&lt;li&gt;Add RFID badges to control and authorize access to the cabinet&lt;/li&gt;
+&lt;li&gt;Add Web interface to allow collaborator to generate asset request&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;smart-store-system&#34;&gt;Smart Store System&lt;/h3&gt;
+&lt;p&gt;Apart from that, we worked on getting this blog up and running.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Week 1 - Brainstorming of project ideas</title>
-      <link>https://anamnesis-blog.netlify.app/posts/week-1/</link>
+      <link>http://localhost:1313/posts/week-1/</link>
       <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://anamnesis-blog.netlify.app/posts/week-1/</guid>
-      <description>&lt;p&gt;The first week of work was entirely focused on coming up with the three ideas that needed to be presented.&lt;/p&gt;&#xA;&lt;p&gt;After extensive brainstorming, the team settled on the following three ideas:&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;automated-anamnesis-system&#34;&gt;Automated Anamnesis System&lt;/h2&gt;&#xA;&lt;p&gt;This idea consists in building a totem that collects vitals and medically relevant personal information from the patient,&#xA;automatind the process of anamnesis and creating a medical report that can be classified by urgency.&lt;/p&gt;&#xA;&lt;h3 id=&#34;vitals-that-would-be-collected&#34;&gt;Vitals that would be collected&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Blood pressure&lt;/li&gt;&#xA;&lt;li&gt;Heart rate&lt;/li&gt;&#xA;&lt;li&gt;Oxygenation&lt;/li&gt;&#xA;&lt;li&gt;Temperature&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The interaction with the user would be done either through speech recognition or text input.&#xA;The patient would interface with the machine with a screen, and hospital staff would be able to check patient records via a web interface.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/week-1/</guid>
+      <description>&lt;p&gt;The first week of work was entirely focused on coming up with the three ideas that needed to be presented.&lt;/p&gt;
+&lt;p&gt;After extensive brainstorming, the team settled on the following three ideas:&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;automated-anamnesis-system&#34;&gt;Automated Anamnesis System&lt;/h2&gt;
+&lt;p&gt;This idea consists in building a totem that collects vitals and medically relevant personal information from the patient,
+automatind the process of anamnesis and creating a medical report that can be classified by urgency.&lt;/p&gt;
+&lt;h3 id=&#34;vitals-that-would-be-collected&#34;&gt;Vitals that would be collected&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Blood pressure&lt;/li&gt;
+&lt;li&gt;Heart rate&lt;/li&gt;
+&lt;li&gt;Oxygenation&lt;/li&gt;
+&lt;li&gt;Temperature&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The interaction with the user would be done either through speech recognition or text input.
+The patient would interface with the machine with a screen, and hospital staff would be able to check patient records via a web interface.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

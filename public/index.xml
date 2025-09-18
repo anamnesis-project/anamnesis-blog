@@ -1,68 +1,140 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>ANAmnesis</title>
-    <link>https://anamnesis-blog.netlify.app/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on ANAmnesis</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.150.0</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 11 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://anamnesis-blog.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project Charter</title>
+      <link>http://localhost:1313/posts/charter/</link>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/charter/</guid>
+      <description>Full project description and specification</description>
+    </item>
     <item>
       <title>Week 4 - Preliminary Project Charter</title>
-      <link>https://anamnesis-blog.netlify.app/posts/week-4/</link>
+      <link>http://localhost:1313/posts/week-4/</link>
       <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://anamnesis-blog.netlify.app/posts/week-4/</guid>
-      <description>&lt;h1 id=&#34;functional-requirements&#34;&gt;Functional Requirements&lt;/h1&gt;&#xA;&lt;h2 id=&#34;hardware&#34;&gt;Hardware&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;FR1 - The system must measure the patient’s body temperature.&lt;/li&gt;&#xA;&lt;li&gt;FR2 - The system must measure the patient’s heart rate.&lt;/li&gt;&#xA;&lt;li&gt;FR3 - The system must measure the patient’s oxygen saturation.&lt;/li&gt;&#xA;&lt;li&gt;FR4 - The system must measure the patient’s blood pressure.&lt;/li&gt;&#xA;&lt;li&gt;FR5 - The system must have audio output.&lt;/li&gt;&#xA;&lt;li&gt;FR6 - The system must have audio input.&lt;/li&gt;&#xA;&lt;li&gt;FR7 - The system must control if the doors should open or close.&lt;/li&gt;&#xA;&lt;li&gt;FR8 - The system must have a screen.&lt;/li&gt;&#xA;&lt;li&gt;FR9 - The system must have WiFi connection.&lt;/li&gt;&#xA;&lt;li&gt;FR10 - The system must indicate visually when the patient should speak.&lt;/li&gt;&#xA;&lt;li&gt;FR11 - The system must be plugged into the outlet.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;mechanical&#34;&gt;Mechanical&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;FR1 - The system must have space to contain an oximeter and cardiac frequency sensor.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/week-4/</guid>
+      <description>ANAmnesis - Requirements, Time Management and budget</description>
     </item>
     <item>
       <title>Week 3 - Improving of proposals A and B</title>
-      <link>https://anamnesis-blog.netlify.app/posts/week-3/</link>
+      <link>http://localhost:1313/posts/week-3/</link>
       <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://anamnesis-blog.netlify.app/posts/week-3/</guid>
-      <description>&lt;h1 id=&#34;week-3---final-proposal-of-projects-a-and-b&#34;&gt;Week 3 - Final proposal of projects A and B&lt;/h1&gt;&#xA;&lt;p&gt;On the previous week&amp;rsquo;s class, the professors decided to veto our third idea - the Smart Store System.&#xA;From that point on, the team worked towards expanding the 2 remaining ideas, the anamnesis and the asset tracking systems.&lt;/p&gt;&#xA;&lt;p&gt;Furthermore, we evaluated the viability of some implementation details on both projects,&#xA;and started to come up with functional requirements for the projects.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/week-3/</guid>
+      <description>&lt;h1 id=&#34;week-3---final-proposal-of-projects-a-and-b&#34;&gt;Week 3 - Final proposal of projects A and B&lt;/h1&gt;
+&lt;p&gt;On the previous week&amp;rsquo;s class, the professors decided to veto our third idea - the Smart Store System.
+From that point on, the team worked towards expanding the 2 remaining ideas, the anamnesis and the asset tracking systems.&lt;/p&gt;
+&lt;p&gt;Furthermore, we evaluated the viability of some implementation details on both projects,
+and started to come up with functional requirements for the projects.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Week 2 - Blog creation and refinement of ideas</title>
-      <link>https://anamnesis-blog.netlify.app/posts/week-2/</link>
+      <link>http://localhost:1313/posts/week-2/</link>
       <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://anamnesis-blog.netlify.app/posts/week-2/</guid>
-      <description>&lt;p&gt;This week, after taking feedback from the professors on the initial project ideas,&#xA;the team expanded and refined the ideas in order to present again,&#xA;this time in a more holistic way.&lt;/p&gt;&#xA;&lt;p&gt;The main complain from the professors is that there was little to none mechanics involved in any of the projects.&#xA;For that reason, we worked on ideas to add mechanic complexity to the projects.&lt;/p&gt;&#xA;&lt;h2 id=&#34;new-changes-to-the-projects&#34;&gt;New changes to the projects:&lt;/h2&gt;&#xA;&lt;h3 id=&#34;automatec-anamnesis-system&#34;&gt;Automatec Anamnesis System&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add a motor controlled door to open and close the hole where the patient inserts their arm&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;asset-tracking-system&#34;&gt;Asset Tracking System&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add an electronically lockable cabinet to store the items that opens and closes with a motor&lt;/li&gt;&#xA;&lt;li&gt;Use a regular Wi-Fi network instead of a mesh LoRa network&lt;/li&gt;&#xA;&lt;li&gt;Add RFID badges to control and authorize access to the cabinet&lt;/li&gt;&#xA;&lt;li&gt;Add Web interface to allow collaborator to generate asset request&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;smart-store-system&#34;&gt;Smart Store System&lt;/h3&gt;&#xA;&lt;p&gt;Apart from that, we worked on getting this blog up and running.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/week-2/</guid>
+      <description>&lt;p&gt;This week, after taking feedback from the professors on the initial project ideas,
+the team expanded and refined the ideas in order to present again,
+this time in a more holistic way.&lt;/p&gt;
+&lt;p&gt;The main complain from the professors is that there was little to none mechanics involved in any of the projects.
+For that reason, we worked on ideas to add mechanic complexity to the projects.&lt;/p&gt;
+&lt;h2 id=&#34;new-changes-to-the-projects&#34;&gt;New changes to the projects:&lt;/h2&gt;
+&lt;h3 id=&#34;automatec-anamnesis-system&#34;&gt;Automatec Anamnesis System&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Add a motor controlled door to open and close the hole where the patient inserts their arm&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;asset-tracking-system&#34;&gt;Asset Tracking System&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Add an electronically lockable cabinet to store the items that opens and closes with a motor&lt;/li&gt;
+&lt;li&gt;Use a regular Wi-Fi network instead of a mesh LoRa network&lt;/li&gt;
+&lt;li&gt;Add RFID badges to control and authorize access to the cabinet&lt;/li&gt;
+&lt;li&gt;Add Web interface to allow collaborator to generate asset request&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;smart-store-system&#34;&gt;Smart Store System&lt;/h3&gt;
+&lt;p&gt;Apart from that, we worked on getting this blog up and running.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Week 1 - Brainstorming of project ideas</title>
-      <link>https://anamnesis-blog.netlify.app/posts/week-1/</link>
+      <link>http://localhost:1313/posts/week-1/</link>
       <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://anamnesis-blog.netlify.app/posts/week-1/</guid>
-      <description>&lt;p&gt;The first week of work was entirely focused on coming up with the three ideas that needed to be presented.&lt;/p&gt;&#xA;&lt;p&gt;After extensive brainstorming, the team settled on the following three ideas:&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;automated-anamnesis-system&#34;&gt;Automated Anamnesis System&lt;/h2&gt;&#xA;&lt;p&gt;This idea consists in building a totem that collects vitals and medically relevant personal information from the patient,&#xA;automatind the process of anamnesis and creating a medical report that can be classified by urgency.&lt;/p&gt;&#xA;&lt;h3 id=&#34;vitals-that-would-be-collected&#34;&gt;Vitals that would be collected&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Blood pressure&lt;/li&gt;&#xA;&lt;li&gt;Heart rate&lt;/li&gt;&#xA;&lt;li&gt;Oxygenation&lt;/li&gt;&#xA;&lt;li&gt;Temperature&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The interaction with the user would be done either through speech recognition or text input.&#xA;The patient would interface with the machine with a screen, and hospital staff would be able to check patient records via a web interface.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Project Charter</title>
-      <link>https://anamnesis-blog.netlify.app/posts/charter/</link>
-      <pubDate>Wed, 11 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://anamnesis-blog.netlify.app/posts/charter/</guid>
-      <description>&lt;p&gt;adsfsdfl&#xA;adsfsdfl&#xA;adsfsdfl&#xA;adsfsdfl&#xA;adsfsdfl&#xA;adsfsdfl&#xA;adsfsdfl&#xA;adsfsdfl&#xA;adsfsdfl&#xA;adsfsdfl&#xA;adsfsdfl&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Archive</title>
-      <link>https://anamnesis-blog.netlify.app/archives/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://anamnesis-blog.netlify.app/archives/</guid>
-      <description>archives</description>
-    </item>
-    <item>
-      <title>Search</title>
-      <link>https://anamnesis-blog.netlify.app/search/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://anamnesis-blog.netlify.app/search/</guid>
-      <description></description>
+      <guid>http://localhost:1313/posts/week-1/</guid>
+      <description>&lt;p&gt;The first week of work was entirely focused on coming up with the three ideas that needed to be presented.&lt;/p&gt;
+&lt;p&gt;After extensive brainstorming, the team settled on the following three ideas:&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;automated-anamnesis-system&#34;&gt;Automated Anamnesis System&lt;/h2&gt;
+&lt;p&gt;This idea consists in building a totem that collects vitals and medically relevant personal information from the patient,
+automatind the process of anamnesis and creating a medical report that can be classified by urgency.&lt;/p&gt;
+&lt;h3 id=&#34;vitals-that-would-be-collected&#34;&gt;Vitals that would be collected&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Blood pressure&lt;/li&gt;
+&lt;li&gt;Heart rate&lt;/li&gt;
+&lt;li&gt;Oxygenation&lt;/li&gt;
+&lt;li&gt;Temperature&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The interaction with the user would be done either through speech recognition or text input.
+The patient would interface with the machine with a screen, and hospital staff would be able to check patient records via a web interface.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Team</title>
-      <link>https://anamnesis-blog.netlify.app/team/</link>
+      <link>http://localhost:1313/team/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://anamnesis-blog.netlify.app/team/</guid>
-      <description>&lt;p&gt;&lt;div style=&#34;display: flex; padding-top: 0.1vh;&#34;&gt;&#xA;    &lt;div style=&#34;padding-right: 15px; flex: 0 0 auto;&#34;&gt;&#xA;        &lt;img&#xA;            src=&#34;https://anamnesis-blog.netlify.app/images/murilo.png&#34;&#xA;            alt=&#34;Murilo Kenji Unten&#34;&#xA;            style=&#34;border-radius: 50%; width: 8em; height: auto;&#34;&#xA;        &gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div style=&#34;display: flex; flex-direction: column; padding-left: 10px;&#34;&gt;&#xA;        &lt;h2 style=&#34;padding-top: 5px;&#34;&gt;&#xA;            Murilo Kenji Unten&#xA;        &lt;/h2&gt;&#xA;        &lt;p&gt;&#xA;            TODO_ADD_SOCIALS&#xA;        &lt;/p&gt;&#xA;    &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;div style=&#34;display: flex; padding-top: 0.1vh;&#34;&gt;&#xA;    &lt;div style=&#34;padding-right: 15px; flex: 0 0 auto;&#34;&gt;&#xA;        &lt;img&#xA;            src=&#34;https://anamnesis-blog.netlify.app/images/robson.png&#34;&#xA;            alt=&#34;Robson de Almeida Santana Junior&#34;&#xA;            style=&#34;border-radius: 50%; width: 8em; height: auto;&#34;&#xA;        &gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div style=&#34;display: flex; flex-direction: column; padding-left: 10px;&#34;&gt;&#xA;        &lt;h2 style=&#34;padding-top: 5px;&#34;&gt;&#xA;            Robson de Almeida Santana Junior&#xA;        &lt;/h2&gt;&#xA;        &lt;p&gt;&#xA;            TODO_ADD_SOCIALS&#xA;        &lt;/p&gt;&#xA;    &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;div style=&#34;display: flex; padding-top: 0.1vh;&#34;&gt;&#xA;    &lt;div style=&#34;padding-right: 15px; flex: 0 0 auto;&#34;&gt;&#xA;        &lt;img&#xA;            src=&#34;https://anamnesis-blog.netlify.app/images/victor.png&#34;&#xA;            alt=&#34;Victor Damasceno Oliveira&#34;&#xA;            style=&#34;border-radius: 50%; width: 8em; height: auto;&#34;&#xA;        &gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div style=&#34;display: flex; flex-direction: column; padding-left: 10px;&#34;&gt;&#xA;        &lt;h2 style=&#34;padding-top: 5px;&#34;&gt;&#xA;            Victor Damasceno Oliveira&#xA;        &lt;/h2&gt;&#xA;        &lt;p&gt;&#xA;            TODO_ADD_SOCIALS&#xA;        &lt;/p&gt;</description>
+      <guid>http://localhost:1313/team/</guid>
+      <description>&lt;p&gt;&lt;div style=&#34;display: flex; padding-top: 0.1vh;&#34;&gt;
+    &lt;div style=&#34;padding-right: 15px; flex: 0 0 auto;&#34;&gt;
+        &lt;img
+            src=&#34;http://localhost:1313/images/murilo.png&#34;
+            alt=&#34;Murilo Kenji Unten&#34;
+            style=&#34;border-radius: 50%; width: 8em; height: auto;&#34;
+        &gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;display: flex; flex-direction: column; padding-left: 10px;&#34;&gt;
+        &lt;h2 style=&#34;padding-top: 5px;&#34;&gt;
+            Murilo Kenji Unten
+        &lt;/h2&gt;
+        &lt;p&gt;
+            TODO_ADD_SOCIALS
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div style=&#34;display: flex; padding-top: 0.1vh;&#34;&gt;
+    &lt;div style=&#34;padding-right: 15px; flex: 0 0 auto;&#34;&gt;
+        &lt;img
+            src=&#34;http://localhost:1313/images/robson.png&#34;
+            alt=&#34;Robson de Almeida Santana Junior&#34;
+            style=&#34;border-radius: 50%; width: 8em; height: auto;&#34;
+        &gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;display: flex; flex-direction: column; padding-left: 10px;&#34;&gt;
+        &lt;h2 style=&#34;padding-top: 5px;&#34;&gt;
+            Robson de Almeida Santana Junior
+        &lt;/h2&gt;
+        &lt;p&gt;
+            TODO_ADD_SOCIALS
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div style=&#34;display: flex; padding-top: 0.1vh;&#34;&gt;
+    &lt;div style=&#34;padding-right: 15px; flex: 0 0 auto;&#34;&gt;
+        &lt;img
+            src=&#34;http://localhost:1313/images/victor.png&#34;
+            alt=&#34;Victor Damasceno Oliveira&#34;
+            style=&#34;border-radius: 50%; width: 8em; height: auto;&#34;
+        &gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;display: flex; flex-direction: column; padding-left: 10px;&#34;&gt;
+        &lt;h2 style=&#34;padding-top: 5px;&#34;&gt;
+            Victor Damasceno Oliveira
+        &lt;/h2&gt;
+        &lt;p&gt;
+            TODO_ADD_SOCIALS
+        &lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
