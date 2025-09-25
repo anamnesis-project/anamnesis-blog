@@ -6,8 +6,15 @@
     <description>Recent content in Posts on ANAmnesis</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 18 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deliverable 1</title>
+      <link>http://localhost:1313/posts/deliverable-1/</link>
+      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/deliverable-1/</guid>
+      <description>Mechanical and backend design</description>
+    </item>
     <item>
       <title>Project Charter</title>
       <link>http://localhost:1313/posts/charter/</link>
