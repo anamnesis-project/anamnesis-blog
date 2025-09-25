@@ -25,7 +25,7 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "images/week-4-banner.png"
+    image: "images/deliverable-1-banner.png"
     alt: "deliverable 1 cover" # alt text
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
