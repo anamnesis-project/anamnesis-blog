@@ -3,27 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-10-02T00:00:00+00:00</lastmod>
+    <lastmod>2025-10-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/deliverable/</loc>
-    <lastmod>2025-10-02T00:00:00+00:00</lastmod>
+    <lastmod>2025-10-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/deliverable-2/</loc>
-    <lastmod>2025-10-02T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/posts/deliverable-3/</loc>
+    <lastmod>2025-10-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/design/</loc>
-    <lastmod>2025-10-02T00:00:00+00:00</lastmod>
+    <lastmod>2025-10-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/electronics/</loc>
+    <lastmod>2025-10-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/hardware/</loc>
-    <lastmod>2025-10-02T00:00:00+00:00</lastmod>
+    <lastmod>2025-10-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/mechanics/</loc>
-    <lastmod>2025-10-02T00:00:00+00:00</lastmod>
+    <lastmod>2025-10-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-10-02T00:00:00+00:00</lastmod>
+    <lastmod>2025-10-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/software/</loc>
+    <lastmod>2025-10-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-10-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/deliverable-2/</loc>
     <lastmod>2025-10-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/backend/</loc>

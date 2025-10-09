@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Hardware | ANAmnesis</title>
-<meta name="keywords" content="">
-<meta name="description" content="">
+<title>Deliverable 3 | ANAmnesis</title>
+<meta name="keywords" content="deliverable, mechanics, design, hardware, software, electronics">
+<meta name="description" content="Mechanical and Electronic project and Software design">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/tags/hardware/">
+<link rel="canonical" href="http://localhost:1313/posts/deliverable-3/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.2211ca3164be7830024f6aad2b3a2e520843a64f8f048445c3401c1249aa051d.css" integrity="sha256-IhHKMWS&#43;eDACT2qtKzouUghDpk&#43;PBIRFw0AcEkmqBR0=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
@@ -18,8 +18,7 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/tags/hardware/index.xml">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/tags/hardware/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/deliverable-3/">
 <noscript>
     <style>
         #theme-toggle,
@@ -59,7 +58,7 @@
 </noscript>
 </head>
 
-<body class="list" id="top">
+<body class="" id="top">
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
@@ -133,42 +132,139 @@
         </ul>
     </nav>
 </header>
-<main class="main"> 
-<header class="page-header">
-  <h1>
-    Hardware
-  </h1>
-</header>
+<main class="main">
 
-<article class="post-entry tag-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="http://localhost:1313/images/deliverable-1-banner.png" alt="deliverable 3 cover">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Deliverable 3
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Software design Diagrams UI design </p>
-  </div>
-  <footer class="entry-footer"><span title='2025-10-09 00:00:00 +0000 UTC'>October 9, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;5 words</footer>
-  <a class="entry-link" aria-label="post link to Deliverable 3" href="http://localhost:1313/posts/deliverable-3/"></a>
-</article>
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Deliverable 3
+    </h1>
+    <div class="post-description">
+      Mechanical and Electronic project and Software design
+    </div>
+    <div class="post-meta"><span title='2025-10-09 00:00:00 +0000 UTC'>October 9, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;211 words
 
-<article class="post-entry tag-entry"> 
+</div>
+  </header> 
 <figure class="entry-cover">
-        <img loading="lazy" src="http://localhost:1313/images/deliverable-1-banner.png" alt="deliverable 1 cover">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Deliverable 2
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Overview This week, the main activities developed were about constructing the mechanical structure, designing the electronic project and testing the electronics.
-Mechanical structure Laser Cutting of the MDF sheets Front view without front plate Full structure Electronics design </p>
+        <img loading="eager" src="http://localhost:1313/images/deliverable-1-banner.png" alt="deliverable 3 cover">
+        <figcaption><!-- raw HTML omitted -->
+</figcaption>
+</figure><div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#servomotors">Servomotors</a>
+      <ul>
+        <li><a href="#servomotor-functioning-from-the-front">Servomotor functioning from the front</a></li>
+        <li><a href="#servomotor-functioning-from-the-back">Servomotor functioning from the back</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li><a href="#diagrams">Diagrams</a>
+      <ul>
+        <li><a href="#totem-activity-diagram">Totem Activity Diagram</a></li>
+        <li><a href="#totem-use-case-diagram">Totem Use Case Diagram</a></li>
+        <li><a href="#new-deployment-diagram">New Deployment Diagram</a></li>
+      </ul>
+    </li>
+    <li><a href="#ui-design">UI design</a>
+      <ul>
+        <li><a href="#color-palette">Color Palette</a></li>
+        <li><a href="#home-page">Home Page</a></li>
+        <li><a href="#register-page">Register Page</a></li>
+        <li><a href="#reports-page">Reports Page</a></li>
+        <li><a href="#patient-page">Patient Page</a></li>
+        <li><a href="#report-page">Report Page</a></li>
+        <li><a href="#employee-authorization-page">Employee Authorization Page</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><p>For this deliverable, the team focused mainly on implementing the complete mechanical solution,
+allowing the drawer and door to be opened automatically through the servomotors.</p>
+<p>Apart from that, we started to work towards implementing the electronic and hardware project,
+which involves collecting data from the sensors, implementing peripheral functionality, etc.</p>
+<p>Last but not least, we finished the complete Software design,
+including the User Interface and system architecture.</p>
+<h1 id="mechanics-and-electronics">Mechanics and Electronics<a hidden class="anchor" aria-hidden="true" href="#mechanics-and-electronics">#</a></h1>
+<h2 id="servomotors">Servomotors<a hidden class="anchor" aria-hidden="true" href="#servomotors">#</a></h2>
+<h3 id="servomotor-functioning-from-the-front">Servomotor functioning from the front<a hidden class="anchor" aria-hidden="true" href="#servomotor-functioning-from-the-front">#</a></h3>
+ 
+<video width=80% controls>
+    <source src="/videos/servos-preview-front.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+<h3 id="servomotor-functioning-from-the-back">Servomotor functioning from the back<a hidden class="anchor" aria-hidden="true" href="#servomotor-functioning-from-the-back">#</a></h3>
+ 
+<video width=80% controls>
+    <source src="/videos/servos-preview-back.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+<h1 id="software-design">Software design<a hidden class="anchor" aria-hidden="true" href="#software-design">#</a></h1>
+<h2 id="diagrams">Diagrams<a hidden class="anchor" aria-hidden="true" href="#diagrams">#</a></h2>
+<h3 id="totem-activity-diagram">Totem Activity Diagram<a hidden class="anchor" aria-hidden="true" href="#totem-activity-diagram">#</a></h3>
+<p><img alt="&ldquo;Totem Activity Diagram&rdquo;" loading="lazy" src="/images/design/totem-activity.png"></p>
+<h3 id="totem-use-case-diagram">Totem Use Case Diagram<a hidden class="anchor" aria-hidden="true" href="#totem-use-case-diagram">#</a></h3>
+<p><img alt="&ldquo;Totem Use Case Diagram&rdquo;" loading="lazy" src="/images/design/totem-use-case.png"></p>
+<h3 id="new-deployment-diagram">New Deployment Diagram<a hidden class="anchor" aria-hidden="true" href="#new-deployment-diagram">#</a></h3>
+<p>The main changes here refer to the totem&rsquo;s implementation.</p>
+<p>Instead of fisically connecting the Screen to the Raspberry Pi,
+the new solution involves opening a webpage from a browser in the tablet.
+The webpage will be served by the Raspberry Pi and will provide a long living connection between both devices.</p>
+<p>Furthermore, due to computational constraints, we will use a STM Blackpill board to handle the firmware section of the totem.
+The Blackpill will then communicate with the Raspberry Pi through commands over UART.
+<img alt="&ldquo;New Deployment Diagram&rdquo;" loading="lazy" src="/images/design/deployment-new.png"></p>
+<h2 id="ui-design">UI design<a hidden class="anchor" aria-hidden="true" href="#ui-design">#</a></h2>
+<h3 id="color-palette">Color Palette<a hidden class="anchor" aria-hidden="true" href="#color-palette">#</a></h3>
+<p><img alt="&ldquo;Color Palette&rdquo;" loading="lazy" src="/images/design/ui/color-palette.jpeg"></p>
+<h3 id="home-page">Home Page<a hidden class="anchor" aria-hidden="true" href="#home-page">#</a></h3>
+<p><img alt="&ldquo;Home Page&rdquo;" loading="lazy" src="/images/design/ui/home-page.jpeg"></p>
+<h3 id="register-page">Register Page<a hidden class="anchor" aria-hidden="true" href="#register-page">#</a></h3>
+<p><img alt="&ldquo;Register Page&rdquo;" loading="lazy" src="/images/design/ui/register-page.jpeg"></p>
+<h3 id="reports-page">Reports Page<a hidden class="anchor" aria-hidden="true" href="#reports-page">#</a></h3>
+<p><img alt="&ldquo;Reports Page&rdquo;" loading="lazy" src="/images/design/ui/reports-page.jpeg"></p>
+<h3 id="patient-page">Patient Page<a hidden class="anchor" aria-hidden="true" href="#patient-page">#</a></h3>
+<p><img alt="&ldquo;Patient Page&rdquo;" loading="lazy" src="/images/design/ui/patient-page.jpeg"></p>
+<h3 id="report-page">Report Page<a hidden class="anchor" aria-hidden="true" href="#report-page">#</a></h3>
+<p><img alt="&ldquo;Report Page&rdquo;" loading="lazy" src="/images/design/ui/report-page.jpeg"></p>
+<h3 id="employee-authorization-page">Employee Authorization Page<a hidden class="anchor" aria-hidden="true" href="#employee-authorization-page">#</a></h3>
+<p><img alt="&ldquo;Employee Authorization Page&rdquo;" loading="lazy" src="/images/design/ui/employee-authorization-page.jpeg"></p>
+
+
   </div>
-  <footer class="entry-footer"><span title='2025-10-02 00:00:00 +0000 UTC'>October 2, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;38 words</footer>
-  <a class="entry-link" aria-label="post link to Deliverable 2" href="http://localhost:1313/posts/deliverable-2/"></a>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/deliverable/">Deliverable</a></li>
+      <li><a href="http://localhost:1313/tags/mechanics/">Mechanics</a></li>
+      <li><a href="http://localhost:1313/tags/design/">Design</a></li>
+      <li><a href="http://localhost:1313/tags/hardware/">Hardware</a></li>
+      <li><a href="http://localhost:1313/tags/software/">Software</a></li>
+      <li><a href="http://localhost:1313/tags/electronics/">Electronics</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="next" href="http://localhost:1313/posts/deliverable-2/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Deliverable 2</span>
+  </a>
+</nav>
+
+  </footer>
 </article>
     </main>
     
