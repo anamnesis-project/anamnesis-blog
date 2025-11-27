@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Backend on ANAmnesis</title>
-    <link>http://localhost:1313/tags/backend/</link>
+    <link>https://anamnesis-blog.netlify.app/tags/backend/</link>
     <description>Recent content in Backend on ANAmnesis</description>
-    <generator>Hugo -- 0.151.0</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Thu, 30 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/backend/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://anamnesis-blog.netlify.app/tags/backend/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Deliverable 5</title>
-      <link>http://localhost:1313/posts/deliverable-5/</link>
+      <link>https://anamnesis-blog.netlify.app/posts/deliverable-5/</link>
       <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/deliverable-5/</guid>
+      <guid>https://anamnesis-blog.netlify.app/posts/deliverable-5/</guid>
       <description>Software implementation</description>
     </item>
     <item>
       <title>Deliverable 1</title>
-      <link>http://localhost:1313/posts/deliverable-1/</link>
+      <link>https://anamnesis-blog.netlify.app/posts/deliverable-1/</link>
       <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/deliverable-1/</guid>
+      <guid>https://anamnesis-blog.netlify.app/posts/deliverable-1/</guid>
       <description>Mechanical and backend design</description>
     </item>
   </channel>

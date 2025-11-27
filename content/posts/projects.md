@@ -13,7 +13,7 @@ hidemeta: false
 comments: false
 description: "3 ideas developed for presentation"
 # canonicalURL: "https://canonical.url/to/page"
-disableHLJS: true
+# disableHLJS: true
 disableShare: false
 disableHLJS: false
 hideSummary: false

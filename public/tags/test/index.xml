@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Test on ANAmnesis</title>
-    <link>http://localhost:1313/tags/test/</link>
+    <link>https://anamnesis-blog.netlify.app/tags/test/</link>
     <description>Recent content in Test on ANAmnesis</description>
-    <generator>Hugo -- 0.151.0</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Thu, 18 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://anamnesis-blog.netlify.app/tags/test/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Project Charter</title>
-      <link>http://localhost:1313/posts/charter/</link>
+      <link>https://anamnesis-blog.netlify.app/posts/charter/</link>
       <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/charter/</guid>
+      <guid>https://anamnesis-blog.netlify.app/posts/charter/</guid>
       <description>Full project description and specification</description>
     </item>
   </channel>

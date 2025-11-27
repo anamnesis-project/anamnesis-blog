@@ -13,7 +13,7 @@ hidemeta: false
 comments: false
 description: "Mechanical and Electronic project and Software design"
 # canonicalURL: "https://canonical.url/to/page"
-disableHLJS: true
+# disableHLJS: true
 disableShare: false
 disableHLJS: false
 hideSummary: false

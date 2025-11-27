@@ -13,7 +13,7 @@ hidemeta: false
 comments: false
 description: "ANAmnesis - Requirements, Time Management and budget"
 # canonicalURL: "https://canonical.url/to/page"
-disableHLJS: true
+# disableHLJS: true
 disableShare: false
 disableHLJS: false
 hideSummary: false

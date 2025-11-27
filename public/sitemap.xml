@@ -2,89 +2,95 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://anamnesis-blog.netlify.app/</loc>
+    <lastmod>2025-11-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anamnesis-blog.netlify.app/posts/</loc>
+    <lastmod>2025-11-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anamnesis-blog.netlify.app/tags/report/</loc>
+    <lastmod>2025-11-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anamnesis-blog.netlify.app/tags/</loc>
+    <lastmod>2025-11-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anamnesis-blog.netlify.app/posts/report/</loc>
+    <lastmod>2025-11-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anamnesis-blog.netlify.app/tags/backend/</loc>
     <lastmod>2025-10-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/backend/</loc>
+    <loc>https://anamnesis-blog.netlify.app/tags/deliverable/</loc>
     <lastmod>2025-10-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/deliverable/</loc>
+    <loc>https://anamnesis-blog.netlify.app/posts/deliverable-5/</loc>
     <lastmod>2025-10-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/deliverable-5/</loc>
+    <loc>https://anamnesis-blog.netlify.app/tags/frontend/</loc>
     <lastmod>2025-10-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/frontend/</loc>
+    <loc>https://anamnesis-blog.netlify.app/tags/software/</loc>
     <lastmod>2025-10-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-10-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/software/</loc>
-    <lastmod>2025-10-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-10-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/deliverable-4/</loc>
+    <loc>https://anamnesis-blog.netlify.app/posts/deliverable-4/</loc>
     <lastmod>2025-10-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/electronics/</loc>
+    <loc>https://anamnesis-blog.netlify.app/tags/electronics/</loc>
     <lastmod>2025-10-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/hardware/</loc>
+    <loc>https://anamnesis-blog.netlify.app/tags/hardware/</loc>
     <lastmod>2025-10-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/deliverable-3/</loc>
+    <loc>https://anamnesis-blog.netlify.app/posts/deliverable-3/</loc>
     <lastmod>2025-10-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/design/</loc>
+    <loc>https://anamnesis-blog.netlify.app/tags/design/</loc>
     <lastmod>2025-10-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/mechanics/</loc>
+    <loc>https://anamnesis-blog.netlify.app/tags/mechanics/</loc>
     <lastmod>2025-10-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/deliverable-2/</loc>
+    <loc>https://anamnesis-blog.netlify.app/posts/deliverable-2/</loc>
     <lastmod>2025-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/deliverable-1/</loc>
+    <loc>https://anamnesis-blog.netlify.app/posts/deliverable-1/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ideas/</loc>
+    <loc>https://anamnesis-blog.netlify.app/tags/ideas/</loc>
     <lastmod>2025-09-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/charter/</loc>
+    <loc>https://anamnesis-blog.netlify.app/posts/charter/</loc>
     <lastmod>2025-09-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/test/</loc>
+    <loc>https://anamnesis-blog.netlify.app/tags/test/</loc>
     <lastmod>2025-09-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/week-4/</loc>
+    <loc>https://anamnesis-blog.netlify.app/posts/week-4/</loc>
     <lastmod>2025-09-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/week-3/</loc>
+    <loc>https://anamnesis-blog.netlify.app/posts/week-3/</loc>
     <lastmod>2025-09-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/blog/</loc>
+    <loc>https://anamnesis-blog.netlify.app/tags/blog/</loc>
     <lastmod>2025-08-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/kick-off/</loc>
+    <loc>https://anamnesis-blog.netlify.app/tags/kick-off/</loc>
     <lastmod>2025-08-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/week-2/</loc>
+    <loc>https://anamnesis-blog.netlify.app/posts/week-2/</loc>
     <lastmod>2025-08-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/week-1/</loc>
+    <loc>https://anamnesis-blog.netlify.app/posts/week-1/</loc>
     <lastmod>2025-08-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>https://anamnesis-blog.netlify.app/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://anamnesis-blog.netlify.app/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://anamnesis-blog.netlify.app/search/</loc>
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>https://anamnesis-blog.netlify.app/series/</loc>
   </url><url>
-    <loc>http://localhost:1313/team/</loc>
+    <loc>https://anamnesis-blog.netlify.app/team/</loc>
   </url>
 </urlset>

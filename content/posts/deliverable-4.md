@@ -13,7 +13,7 @@ hidemeta: false
 comments: false
 description: "Electronic project and partial Software implementation"
 # canonicalURL: "https://canonical.url/to/page"
-disableHLJS: true
+# disableHLJS: true
 disableShare: false
 disableHLJS: false
 hideSummary: false
