@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Frontend on ANAmnesis</title>
-    <link>https://anamnesis-blog.netlify.app/tags/frontend/</link>
-    <description>Recent content in Frontend on ANAmnesis</description>
+    <title>Integration on ANAmnesis</title>
+    <link>https://anamnesis-blog.netlify.app/tags/integration/</link>
+    <description>Recent content in Integration on ANAmnesis</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Thu, 06 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://anamnesis-blog.netlify.app/tags/frontend/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://anamnesis-blog.netlify.app/tags/integration/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Deliverable 6</title>
       <link>https://anamnesis-blog.netlify.app/posts/deliverable-6/</link>
       <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
       <guid>https://anamnesis-blog.netlify.app/posts/deliverable-6/</guid>
       <description>Full project integration</description>
-    </item>
-    <item>
-      <title>Deliverable 5</title>
-      <link>https://anamnesis-blog.netlify.app/posts/deliverable-5/</link>
-      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://anamnesis-blog.netlify.app/posts/deliverable-5/</guid>
-      <description>Software implementation</description>
     </item>
   </channel>
 </rss>

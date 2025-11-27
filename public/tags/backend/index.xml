@@ -6,8 +6,15 @@
     <description>Recent content in Backend on ANAmnesis</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 30 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://anamnesis-blog.netlify.app/tags/backend/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deliverable 6</title>
+      <link>https://anamnesis-blog.netlify.app/posts/deliverable-6/</link>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://anamnesis-blog.netlify.app/posts/deliverable-6/</guid>
+      <description>Full project integration</description>
+    </item>
     <item>
       <title>Deliverable 5</title>
       <link>https://anamnesis-blog.netlify.app/posts/deliverable-5/</link>
